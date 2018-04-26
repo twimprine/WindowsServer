@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+#Chef Excludes
+>>>>>>> 7111f0768c1de3d1d7575a1b725b56c861dc108a
 .vagrant
 *~
 *#
@@ -15,6 +19,15 @@ bin/*
 # test kitchen
 .kitchen/
 .kitchen.local.yml
+<<<<<<< HEAD
+=======
+
+# Chef
+Berksfile.lock
+.zero-knife.rb
+Policyfile.lock.json
+
+>>>>>>> 7111f0768c1de3d1d7575a1b725b56c861dc108a
 
 # Chef
 Berksfile.lock
