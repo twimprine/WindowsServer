@@ -1,6 +1,6 @@
 #
 # Cookbook:: WindowsServer
-# Recipe:: default
+# attributes::default.rb
 #
 # The MIT License (MIT)
 #
@@ -24,6 +24,6 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 # THE SOFTWARE.
 
-# Install VMtools
-# include_recipe "vmware-tools::default"
-include_recipe "LogRhythm::default"
+# vmware-tools
+default['vmware-tools']['update'] = true
+default['vmware-tools']['windows_reboot'] = true
